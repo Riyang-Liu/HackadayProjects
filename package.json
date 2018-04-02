@@ -1,0 +1,25 @@
+{
+  "name": "projects",
+  "version": "1.0.0",
+  "description": "Supplyframe Interview Challenge",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riyang-Liu/projects.git"
+  },
+  "author": "Riyang Liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Riyang-Liu/projects/issues"
+  },
+  "homepage": "https://github.com/Riyang-Liu/projects#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.8",
+    "express": "^4.16.3",
+    "request": "^2.85.0"
+  }
+}

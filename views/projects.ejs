@@ -69,7 +69,7 @@
             <% if (typeof(obj) != "undefined") { %>
               <!-- Mouse over the owner's name to show the detail info of the owner-->
               <p onmouseover="showProfile(this)" onmouseout="hideProfile(this)" class="card-text"><a href="<%= obj.url %>"><img id="profilePicture" src=<%= obj.image_url %> class="img-fluid" alt="Responsive image"></a><%= obj.screen_name %></p>
-              <div id="tip">
+              <div onmouseover="showProfile(this)" onmouseout="hideProfile(this)" id="tip">
                 <div id="bigProfile">
                   <a href="<%= obj.url %>"><img id="profilePictureBig" src=<%= obj.image_url %> class="img-fluid" alt="Responsive image"></a>
                 </div>

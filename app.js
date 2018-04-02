@@ -59,8 +59,6 @@ app.get("/", function(req, res){
   request.get(projectUrl, function(error, response, body){
 
     var bodyData = parseJSON(body);
-    console.log(user.users);
-    console.log(bodyData.projects);
     res.render("projects", {apiData:[bodyData.projects, user.users]});
   });
 });
@@ -82,8 +80,6 @@ app.get("/projects", function(req, res){
   request.get(projectUrl, function(error, response, body){
 
     var bodyData = parseJSON(body);
-    console.log(user.users);
-    console.log(bodyData.projects);
     res.render("projects", {apiData:[bodyData.projects, user.users]});
   });
 });
